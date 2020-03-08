@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      name: eureka-client-o1
+      name: eureka-server
       label: master
       profile: dev
-      uri: http://localhost:8888
+      uri: http://101.132.67.220:8760
