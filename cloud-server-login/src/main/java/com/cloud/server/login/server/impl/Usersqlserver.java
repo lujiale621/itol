@@ -4,9 +4,10 @@ import com.cloud.server.login.bean.User;
 import com.cloud.server.login.mapper.UserMapper;
 import com.cloud.server.login.server.TbUserserver;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class Usersqlserver implements TbUserserver {
     @Autowired
     UserMapper userMapper;

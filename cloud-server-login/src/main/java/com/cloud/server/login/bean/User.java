@@ -20,6 +20,17 @@ public class User {
         this.user_lastlogintime = user_lastlogintime;
     }
 
+    public User(int user_id, String user_name, String user_email, String user_password, String user_phone, String user_created, String user_updated, String user_lastlogintime) {
+        this.user_id = user_id;
+        this.user_name = user_name;
+        this.user_email = user_email;
+        this.user_password = user_password;
+        this.user_phone = user_phone;
+        this.user_created = user_created;
+        this.user_updated = user_updated;
+        this.user_lastlogintime = user_lastlogintime;
+    }
+
     public int getUser_id() {
         return user_id;
     }
