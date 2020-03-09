@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-feign" />
         <module name="cloud-eureka-client" />
+        <module name="cloud-server-login" />
         <module name="cloud-zuul-gateway" />
         <module name="cloud-eureka-admin" />
         <module name="cloud-eureka-server" />
@@ -21,6 +22,7 @@
       <module name="cloud-eureka-client" target="1.8" />
       <module name="cloud-eureka-feign" target="1.8" />
       <module name="cloud-eureka-server" target="1.8" />
+      <module name="cloud-server-login" target="1.8" />
       <module name="cloud-zuul-gateway" target="1.8" />
       <module name="zipkin-server-stream" target="1.8" />
     </bytecodeTargetLevel>
@@ -32,6 +34,7 @@
       <module name="cloud-eureka-client" options="-parameters" />
       <module name="cloud-eureka-feign" options="-parameters" />
       <module name="cloud-eureka-server" options="-parameters" />
+      <module name="cloud-server-login" options="-parameters" />
       <module name="cloud-zuul-gateway" options="-parameters" />
       <module name="zipkin-server-stream" options="-parameters" />
     </option>
