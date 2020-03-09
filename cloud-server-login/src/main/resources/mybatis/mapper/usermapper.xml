@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN "
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.server.login.mapper.UserMapper">
+    <select id="getUserById" parameterType="int" resultType="com.cloud.server.login.bean.User">
+            SELECT * FROM Users  WHERE user_id=#{user_id}
+        </select>
+    <select id="getUserByName" parameterType="String" resultType="com.cloud.server.login.bean.User">
+            SELECT * FROM Users  WHERE user_name=#{user_name}
+        </select>
+    <insert id="insertUser" parameterType="com.cloud.server.login.bean.User">
+            insert into Users (user_name,user_password,user_phone,user_email,user_created,user_updated,user_lastlogintime) value(#{user_name},#{user_password},#{user_phone},#{user_email},#{user_created},#{user_updated},#{user_lastlogintime})
+         </insert>
+    <delete id="deleteUserById" parameterType="int">
+            DELETE FROM Users WHERE user_id = #{user_id}
+        </delete>
+    <delete id="deleteUserByName" parameterType="String">
+             DELETE FROM Users WHERE user_name = #{user_name}
+        </delete>
+    <select id="queryAll" resultType="com.cloud.server.login.bean.User">
+            SELECT * FROM Users
+        </select>
+    <update id="updataUser" parameterType="com.cloud.server.login.bean.User">
+            UPDATE Users SET user_name=#{user_name},user_password=#{user_password},user_phone=#{user_phone},user_email=#{user_email},user_created=#{user_created},user_updated=#{user_updated},user_lastlogintime=#{user_lastlogintime} where user_name=#{user_name}
+        </update>
+</mapper>

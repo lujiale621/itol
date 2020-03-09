@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: server-login
+      label: master
+      profile: dev
+      uri: http://101.132.67.220:8760
