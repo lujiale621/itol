@@ -1,30 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ecc9e73-d776-4bab-be30-81aaf2acd30c" name="Default Changelist" comment="change">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="0ecc9e73-d776-4bab-be30-81aaf2acd30c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/cloud-server-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/controller/LueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/AnimImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/Animinterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/Connecter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/ManhuaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/Manhuainterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/MovieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/Movieinterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/NovelImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/Novelinterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api/util/requestpython/Templer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-server-api/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-application" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-application" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config/cloud-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config/cloud-config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dependencies/cloud-dependencies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dependencies/cloud-dependencies.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-admin/cloud-eureka-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-admin/cloud-eureka-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-client/cloud-eureka-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-client/cloud-eureka-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-feign/cloud-eureka-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-feign/cloud-eureka-feign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-server-login/cloud-server-login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-login/cloud-server-login.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul-gateway/cloud-zuul-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-zuul-gateway/cloud-zuul-gateway.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +88,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-server-login/src/main/resources/mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-server-api/src/main/java/com/server/api" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1546875" />
     <property name="project.structure.side.proportion" value="0.525299" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.server.api.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Cloud\cloud-server-api\src\main\java\com\server\api" />
       <recent name="D:\Cloud\cloud-server-login\src\main\resources\mybatis" />
       <recent name="D:\Cloud\cloud-eureka-client\src\main\resources\mybatis" />
       <recent name="D:\Cloud\cloud-eureka-client\src\main\java\com\cloud\eureka\client" />
@@ -86,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoginApplication">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration name="testclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testclass" />
       <module name="cloud-server-login" />
@@ -97,6 +123,19 @@
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-server-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.server.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.api.ApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,6 +202,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.testclass" />
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.CloudDependenciesApplication" />
       <item itemvalue="Spring Boot.CloudEurekaServerApplication" />
@@ -171,10 +211,11 @@
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.EurekaclientApplication" />
       <item itemvalue="Spring Boot.LoginApplication" />
-      <item itemvalue="Application.testclass" />
+      <item itemvalue="Spring Boot.ApiApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiApplication" />
         <item itemvalue="Spring Boot.LoginApplication" />
         <item itemvalue="Application.testclass" />
         <item itemvalue="Spring Boot.EurekaclientApplication" />
@@ -194,7 +235,12 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -219,7 +265,8 @@
       <workItem from="1583231246794" duration="26000" />
       <workItem from="1583572817433" duration="13307000" />
       <workItem from="1583662944059" duration="1970000" />
-      <workItem from="1583722697820" duration="17255000" />
+      <workItem from="1583722697820" duration="17409000" />
+      <workItem from="1584153049409" duration="8165000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1582890612394</created>
@@ -305,7 +352,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583753918014</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change">
+      <created>1583757168832</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583757168832</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change">
+      <created>1584154437758</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584154437758</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change">
+      <created>1584155770233</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584155770233</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,50 +396,50 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1021" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1583754898163" />
-    <state x="691" y="109" key="CommitChangelistDialog2" timestamp="1583753914663">
+    <state x="691" y="109" key="CommitChangelistDialog2" timestamp="1584155769283">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="691" y="109" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1583753914663" />
+    <state x="691" y="109" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1584155769283" />
     <state width="496" height="582" key="DebuggerActiveHint" timestamp="1583581292245">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="496" height="582" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1583581292245" />
-    <state x="380" y="294" key="FileChooserDialogImpl" timestamp="1583722884423">
+    <state x="380" y="294" key="FileChooserDialogImpl" timestamp="1584153738890">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="380" y="294" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1583722884423" />
-    <state width="1371" height="240" key="GridCell.Tab.0.bottom" timestamp="1583757077941">
+    <state x="380" y="294" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1584153738890" />
+    <state width="1234" height="294" key="GridCell.Tab.0.bottom" timestamp="1584161288281">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1371" height="240" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583757077941" />
-    <state width="1371" height="240" key="GridCell.Tab.0.center" timestamp="1583757077941">
+    <state width="1234" height="294" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584161288281" />
+    <state width="1234" height="294" key="GridCell.Tab.0.center" timestamp="1584161288281">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1371" height="240" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583757077941" />
-    <state width="1371" height="240" key="GridCell.Tab.0.left" timestamp="1583757077941">
+    <state width="1234" height="294" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584161288281" />
+    <state width="1234" height="294" key="GridCell.Tab.0.left" timestamp="1584161288281">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1371" height="240" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583757077941" />
-    <state width="1371" height="240" key="GridCell.Tab.0.right" timestamp="1583757077941">
+    <state width="1234" height="294" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584161288281" />
+    <state width="1234" height="294" key="GridCell.Tab.0.right" timestamp="1584161288281">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1371" height="240" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583757077941" />
-    <state width="1371" height="240" key="GridCell.Tab.1.bottom" timestamp="1583757077941">
+    <state width="1234" height="294" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584161288281" />
+    <state width="1234" height="294" key="GridCell.Tab.1.bottom" timestamp="1584161288281">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1371" height="240" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583757077941" />
-    <state width="1371" height="240" key="GridCell.Tab.1.center" timestamp="1583757077941">
+    <state width="1234" height="294" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584161288281" />
+    <state width="1234" height="294" key="GridCell.Tab.1.center" timestamp="1584161288281">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1371" height="240" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583757077941" />
-    <state width="1371" height="240" key="GridCell.Tab.1.left" timestamp="1583757077941">
+    <state width="1234" height="294" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584161288281" />
+    <state width="1234" height="294" key="GridCell.Tab.1.left" timestamp="1584161288281">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1371" height="240" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583757077941" />
-    <state width="1371" height="240" key="GridCell.Tab.1.right" timestamp="1583757077941">
+    <state width="1234" height="294" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584161288281" />
+    <state width="1234" height="294" key="GridCell.Tab.1.right" timestamp="1584161288281">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1371" height="240" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583757077941" />
+    <state width="1234" height="294" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584161288281" />
     <state width="1266" height="323" key="GridCell.Tab.2.bottom" timestamp="1583725476579">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -400,14 +468,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="435" y="12" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1583126443076" />
-    <state x="688" y="259" key="Vcs.Push.Dialog.v2" timestamp="1583733728415">
+    <state x="688" y="259" key="Vcs.Push.Dialog.v2" timestamp="1584155771926">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="688" y="259" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1583733728415" />
-    <state x="1042" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1583722703323">
+    <state x="688" y="259" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1584155771926" />
+    <state x="1042" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1584153049325">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1042" y="370" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583722703323" />
+    <state x="1042" y="370" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1584153049325" />
     <state x="283" y="210" key="new project wizard" timestamp="1583231270804">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

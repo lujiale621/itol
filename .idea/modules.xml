@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-client/cloud-eureka-client.iml" filepath="$PROJECT_DIR$/cloud-eureka-client/cloud-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-feign/cloud-eureka-feign.iml" filepath="$PROJECT_DIR$/cloud-eureka-feign/cloud-eureka-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" filepath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-server-api/cloud-server-api.iml" filepath="$PROJECT_DIR$/cloud-server-api/cloud-server-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-server-login/cloud-server-login.iml" filepath="$PROJECT_DIR$/cloud-server-login/cloud-server-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul-gateway/cloud-zuul-gateway.iml" filepath="$PROJECT_DIR$/cloud-zuul-gateway/cloud-zuul-gateway.iml" />
     </modules>
