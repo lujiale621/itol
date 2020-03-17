@@ -1,24 +1,20 @@
 package com.server.api.util.requestpython;
 
+import com.server.api.bean.*;
+
 public interface Novelinterface {
-    String NovelSearchBookTask="NovelSearchBookTask";
-    String NovelSearchBookMoreTask="NovelSearchBookMoreTask";
-    String NovelSearchBookDetailTask="NovelSearchBookDetailTask";
-    String NovelSearchBookContentTask="NovelSearchBookContentTask";
-    String NovelPoprecommendationTask="NovelPoprecommendationTask";
-    String NovelrecommendnovelsTask="NovelrecommendnovelsTask";
-    String NovelbookfriendrecommedTask="NovelbookfriendrecommedTask";
-    String NovelmostpopularnovelTask="NovelmostpopularnovelTask";
-    String NovelgetsortTask="NovelgetsortTask";
+    String  NovelSearchBookTask = "NovelSearchBookTask";
+    String   NovelSearchBookDetailTask = "NovelSearchBookDetailTask";
+    String   NovelSearchBookContentTask = "NovelSearchBookContentTask";
+    String  NovelSearchBookSort = "NovelSearchBookSort";
+    String  NovelSearchBookRank1 = "NovelSearchBookRank1";
+    String  NovelSearchBookRank2 = "NovelSearchBookRank2";
     public abstract int getport();
     public abstract void setport(int port);
-    abstract   String getbooklist(String msg);
-    abstract   String getbookmorelist(String msg);
-    abstract  String getbookdetail(String msg);
-    abstract  String getbookcontent(String msg);
-    abstract String poprecommendation(String msg);
-    abstract String recommendgoodnovels(String msg);
-    abstract String mostpopularnovel(String msg);
-    abstract String bookfriendrecommed(String msg);
-    abstract String getsort(String msg);
+    abstract BookSearchRes searchbook(String msg);
+    abstract BookDetailRes bookdetail(String msg);
+    abstract BookContentRes bookcontent(String msg);
+    abstract BookSortRes booksort(String msg);
+    abstract Bookrank1Res book_rank(String msg);
+    abstract Bookrank2Res book_rank2(String msg);
 }
