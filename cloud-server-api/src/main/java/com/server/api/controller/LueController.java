@@ -36,27 +36,27 @@ public class LueController {
             "1 -- 点击排行榜\n" +
             "2 -- 推荐排行榜\n" +
             "3 --收藏排行榜\n";
-    @ApiImplicitParam(name = "xsname", value = "小说名", paramType = "String", required = true)
+    @ApiImplicitParam(name = "xsname", value = "小说名",required = true)
     @ApiOperation(value="搜索小说入口1", notes="无", produces="application/json")
     @RequestMapping(value = "e1searchbook",method = RequestMethod.GET,produces = "application/json;charset=UTF-8")
     public BookSearchRes Entrance1searchbook(@RequestParam(value = "xsname",required = true) String xsname){
         return novelImpl1.searchbook(xsname);
     }
-    @ApiImplicitParam(name = "xsdetail", value = "e1searchbook的返回值url作为参数", paramType = "String", required = true)
+    @ApiImplicitParam(name = "xsdetail", value = "e1searchbook的返回值url作为参数",required = true)
     @ApiOperation(value ="获取小说详细信息入口1",notes = "无", produces="application/json")
     @RequestMapping(value = "e1bookdetail",method = RequestMethod.GET,produces = "application/json;charset=UTF-8")
     public BookDetailRes Entrance1bookdetail(@RequestParam(value = "xsdetail",required = true) String xsdetail){
         return novelImpl1.bookdetail(xsdetail);
     }
-    @ApiImplicitParam(name = "xscontent", value = "e1bookdetail的返回值url作为参数", paramType = "String", required = true)
+    @ApiImplicitParam(name = "xscontent", value = "e1bookdetail的返回值url作为参数",required = true)
     @ApiOperation(value ="获取小说内容入口1",notes = "无", produces="application/json")
     @RequestMapping(value = "e1bookcontent",method = RequestMethod.GET,produces = "application/json;charset=UTF-8")
     public BookContentRes Entrance1bookcontent(@RequestParam(value = "xscontent",required = true) String xscontent){
         return novelImpl1.bookcontent(xscontent);
     }
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "xsfenlei", value = "类型", paramType = "String", required = true),
-            @ApiImplicitParam(name = "page", value = "请求页数", paramType = "String", required = true)
+            @ApiImplicitParam(name = "xsfenlei", value = "类型",required = true),
+            @ApiImplicitParam(name = "page", value = "请求页数",required = true)
     })
     @ApiOperation(value ="获取小说分类入口1",notes = DES_SORT, produces="application/json")
     @RequestMapping(value = "e1booksort",method = RequestMethod.GET,produces = "application/json;charset=UTF-8")
