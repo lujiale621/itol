@@ -3,10 +3,7 @@ package com.server.api.controller;
 
 import com.server.api.bean.*;
 import com.server.api.util.requestpython.NovelImpl;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
-import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.*;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
@@ -68,6 +65,7 @@ public class LueController {
     public Bookrank1Res Entrance1bookrank1(){
         return novelImpl1.book_rank("null");
     }
+
     @ApiOperation(value ="获取小说排行榜2入口1",notes = DES_RANK2, produces="application/json")
     @RequestMapping(value = "e1bookrank2",method = RequestMethod.GET,produces = "application/json;charset=UTF-8")
     public Bookrank2Res Entrance1bookrank2(){
